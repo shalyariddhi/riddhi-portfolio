@@ -827,6 +827,12 @@ input:checked + .slider::before {
   flex-wrap: wrap;
 }
 
+.btn-resume-hero {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .hero-stats {
   display: flex;
   align-items: center;
