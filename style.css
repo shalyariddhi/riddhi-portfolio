@@ -544,7 +544,7 @@ section:nth-child(even) {
 }
 
 /* Header & Navigation Bar */
-header {
+#header {
   position: fixed;
   top: 0;
   left: 0;
@@ -554,11 +554,11 @@ header {
   transition: padding var(--transition-speed) var(--transition-smooth);
 }
 
-header.scrolled {
+#header.scrolled {
   padding: 0.6rem 0;
 }
 
-header.scrolled .nav-container {
+#header.scrolled .nav-container {
   background: var(--surface-color);
   box-shadow: var(--card-shadow);
   border-color: var(--surface-border);
